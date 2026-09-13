@@ -5,9 +5,11 @@ export default function Home() {
     <>
     <nav className="p-4"><Link href="/catalog">Product catalog practice</Link></nav>
     <nav className="p-4"><Link href="/cart">Shopping cart practice</Link></nav>
+    <nav className="p-4"><Link href="/product-search">Debounced search practice</Link></nav>
     <UserList/>
     </>
   );
 }
+
 
 
